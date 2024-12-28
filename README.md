@@ -91,6 +91,9 @@ Follow these steps to execute the pipeline:
 
 4. **Monitor the Pipeline**:  
    - View and monitor the pipeline instance in SageMaker Studio under the "Pipeline" section.
+  
+OPTIONAL:
+Use hpo.ipynb for hyperparameter optimization based pipeline. 
 
 ---
 
