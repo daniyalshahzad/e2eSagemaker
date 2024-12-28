@@ -1,6 +1,6 @@
 # End-to-End Machine Learning Pipeline on AWS
 
-This repository demonstrates an end-to-end machine learning pipeline implementation on AWS, featuring an inference pipeline. In this pipeline, input requests are preprocessed and passed to the model for predictions in a single workflow, eliminating the need for a Lambda function. The pipeline incorporates scripts stored in an Amazon S3 bucket and executed locally within a JupyterLab environment hosted on a SageMaker Notebook instance.
+This repository demonstrates an end-to-end machine learning pipeline implementation on AWS, featuring an inference pipeline. In this pipeline, input requests are preprocessed and passed to the model for predictions in a single workflow, eliminating the need for a Lambda function. The pipeline incorporates scripts stored in an Amazon S3 bucket and executed locally within a JupyterLab environment hosted on a SageMaker Notebook instance. This also features SHAP values based explaination (Interventional) for real-time local explainations :). 
 
 This pipeline is also utilized in corporate environments, handling high-traffic domains effectively, showcasing its robustness and scalability for real-world applications.
 
@@ -91,6 +91,9 @@ Follow these steps to execute the pipeline:
 
 4. **Monitor the Pipeline**:  
    - View and monitor the pipeline instance in SageMaker Studio under the "Pipeline" section.
+  
+OPTIONAL:
+Use hpo.ipynb for hyperparameter optimization based pipeline. 
 
 ---
 
